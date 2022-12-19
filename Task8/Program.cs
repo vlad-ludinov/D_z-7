@@ -3,18 +3,39 @@
 int number = int.Parse(ReadLine());
 int count = 1;
 
-while (count <= number)
+if (number > 0)
 {
-    if (number - count > 1 && count % 2 == 0)
+    while (count <= number)
     {
-        Write($"{count}, ");
-    }
-    else
-    {
-        if (count % 2 == 0)
+        if (number - count > 1 && count % 2 == 0)
         {
-            Write(count);
+            Write($"{count}, ");
         }
+        else
+        {
+            if (count % 2 == 0)
+            {
+                Write(count);
+            }
+        }
+        count+=1;
     }
-    count+=1;
+}
+else
+{
+    while (count >= number)
+    {
+        if (number - count < -1 && count % 2 == 0)
+        {
+            Write($"{count}, ");
+        }
+        else
+        {
+            if (count % 2 == 0)
+            {
+                Write(count);
+            }
+        }
+        count-=1;
+    }
 }
