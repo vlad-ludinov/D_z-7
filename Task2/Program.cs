@@ -12,3 +12,4 @@ else
 {
     max = b;
 }
+WriteLine($"max = {max}");
