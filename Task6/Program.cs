@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+
+int number = int.Parse(ReadLine());
+
+if (number % 2 == 0)
+{
+    WriteLine("Чётное");
+}
+else
+{
+    WriteLine("Нечётное");
+}
