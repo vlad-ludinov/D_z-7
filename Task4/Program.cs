@@ -1,8 +1,9 @@
 ﻿using static System.Console;
 
 int a = int.Parse(ReadLine());
-int b = int.Parse(readLine());
+int b = int.Parse(ReadLine());
 int c = int.Parse(ReadLine());
+int max = 0;
 
 if (a >= b && a >= c)
 {
@@ -17,3 +18,4 @@ else
     {
         max = b;
     }
+WriteLine($"max = {max}");
