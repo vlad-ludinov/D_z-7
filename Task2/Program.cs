@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+
+int a = int.Parse(ReadLine()!);
+int b = int.Parse(ReadLine()!);
+int max = 0;
+
