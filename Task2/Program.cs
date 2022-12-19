@@ -1,4 +1,8 @@
-﻿using static System.Console;
+﻿/*Задача 2: Напишите программу,
+которая на вход принимает два числа
+и выдаёт, какое число большее,
+а какое меньшее.*/
+using static System.Console;
 
 int a = int.Parse(ReadLine()!);
 int b = int.Parse(ReadLine()!);

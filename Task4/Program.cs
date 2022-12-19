@@ -1,4 +1,7 @@
-﻿using static System.Console;
+﻿/*Задача 4: Напишите программу,
+которая принимает на вход три числа
+и выдаёт максимальное из этих чисел.*/
+using static System.Console;
 
 int a = int.Parse(ReadLine());
 int b = int.Parse(ReadLine());
